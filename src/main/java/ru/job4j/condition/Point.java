@@ -7,8 +7,8 @@ public class Point {
         double first = Math.pow(one, 2);
         double second = Math.pow(two, 2);
         double plus = first + second;
-        double sqrt = Math.sqrt(plus);
-        return sqrt;
+        double sqrt1 = Math.sqrt(plus);
+        return sqrt1;
     }
 
     public static void main(String[] args) {

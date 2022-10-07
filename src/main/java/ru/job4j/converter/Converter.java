@@ -5,15 +5,12 @@ public class Converter {
     public static float rubleToEuro(float value) {
         float rsl = value / 70;
         return rsl;
-
-
     }
 
     public static float rubleToDollar(float value) {
         float rsl = value / 60;
         return rsl;
     }
-
     public static void main(String[] args) {
         float euro = Converter.rubleToEuro(140);
         System.out.println("140 rubles are " + euro + " euro.");
@@ -26,8 +23,8 @@ public class Converter {
         System.out.println("120 rubles are 2. Test result : " + passed);
         float ind = 120;
         double expectedd = 2;
-        float outd = Converter.rubleToDollar(in);
-        boolean passedd = expectedd == out;
+        float outd = Converter.rubleToDollar(ind);
+        boolean passedd = expectedd == outd;
         System.out.println("120 rubles are 2. Test result : " + passedd);
     }
 }

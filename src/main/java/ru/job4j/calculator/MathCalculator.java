@@ -7,11 +7,13 @@ public class MathCalculator {
         return sum(first, second)
                 + multiply(first, second);
     }
+
     public static double sumAndminusdivide(double first, double second) {
         return sum(first, second)
                 + minus(first, second)
                 + divide(first, second);
     }
+
     public static double sumAndfour(double first, double second) {
         return sum(first, second)
                 + minus(first, second)

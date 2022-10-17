@@ -9,10 +9,8 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-    public static double minusdivide(double first, double second) {
-        return
-                +minus(first, second)
-                + divide(first, second);
+    public static double minusDivide(double first, double second) {
+        return minus(first, second) + divide(first, second);
     }
 
     public static double sumAll(double first, double second) {
@@ -24,7 +22,7 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета  суммы двух операций из класса MathFunction: разность двух чисел и деление двух чисел равен: " + minusdivide(10, 20));
+        System.out.println("Результат расчета  суммы двух операций из класса MathFunction: разность двух чисел и деление двух чисел равен: " + minusDivide(10, 20));
         System.out.println("Результат расчета  суммы вычисления всех четырех операций из класса MathFunction равен: " + sumAll(10, 20));
     }
 }
